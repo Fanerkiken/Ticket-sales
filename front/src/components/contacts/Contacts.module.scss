@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  url("../../assets/mainBackground.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  url("../../assets/mainBackground.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.mainInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.addressWithPhoneNumbers {
+  width: 50%;
+  margin: 70px 15% 40px 15%;
+}
+
+.address {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  width: max-content;
+  color: #e6e6e6;
+}
+
+.phoneNumbers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  justify-content: end;
+}
+
+.phoneNumbers a {
+  color: #e6e6e6;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.phoneNumbers a:hover {
+  color: #888888;
+}

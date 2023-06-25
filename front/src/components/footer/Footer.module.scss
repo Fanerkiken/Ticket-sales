@@ -1,0 +1,61 @@
+* {
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #505261;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #F2f2f2;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.link {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 0 100px;
+  font-weight: 700;
+
+  &_withIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px 0 0;
+  }
+}
+
+.phoneNumbers {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+
+}
